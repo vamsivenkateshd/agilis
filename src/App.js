@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Carousel from './Component/Carousel/carousel';
 
+let data= [
+  {
+    image:
+      "https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547__480.jpg",
+  },
+  {
+    image:
+      "https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg",
+  },
+  {
+    image:
+      "https://1.bp.blogspot.com/-kK7Fxm7U9o0/YN0bSIwSLvI/AAAAAAAACFk/aF4EI7XU_ashruTzTIpifBfNzb4thUivACLcBGAsYHQ/s1280/222.jpg",
+  },
+]
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Carousel  items={data} autoplayInterval={1000}/>
     </div>
   );
 }
