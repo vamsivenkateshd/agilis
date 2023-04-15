@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/agilis/static/css/main.e6c13ad2.css",
+    "main.js": "/agilis/static/js/main.48fdaddb.js",
+    "static/js/787.c1771ad7.chunk.js": "/agilis/static/js/787.c1771ad7.chunk.js",
+    "index.html": "/agilis/index.html",
+    "main.e6c13ad2.css.map": "/agilis/static/css/main.e6c13ad2.css.map",
+    "main.48fdaddb.js.map": "/agilis/static/js/main.48fdaddb.js.map",
+    "787.c1771ad7.chunk.js.map": "/agilis/static/js/787.c1771ad7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.48fdaddb.js"
+  ]
+}
